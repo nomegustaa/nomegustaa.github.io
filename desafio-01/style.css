@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background: hsl(217, 54%, 11%);
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: hsl(216, 50%, 16%);
+    width: 260px;
+    border-radius: 10px;
+    box-shadow:  0 0 20px 5px #000;
+    padding: 10px;
+}
+.corpo{
+    text-align: center;
+}
+.imagem{
+    /* padding: 10px; */
+    margin: 10px 0 10px 0px;
+    text-align: center;
+}
+.img{
+    border-radius: 10px;
+}
+.titulo{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.p-texto{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.textos-icones{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px 15px 20px 15px;
+    font-family: 'Outfit', sans-serif;
+}
+.textos-icones span{
+    display: flex;
+    align-items: center;
+}
+.icone{
+    margin-right: 5px;
+}
+.t-span{
+    color: hsl(178, 100%, 50%);
+}
+.t-span2{
+    color: hsl(215, 51%, 70%);
+}
+
+.t-final{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin: 10px 10px 15px 15px;
+}
+.p-final{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+}
+.nome{
+    color: hsl(0, 0%, 100%);
+}
+hr {
+	text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid  hsl(215, 32%, 27%);
+}
+
+.footer p{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.autor,
+.icone-img{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    font-family: 'Outfit', sans-serif;
+    
+}
