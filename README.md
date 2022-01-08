@@ -15,6 +15,4 @@ Front End Mentor é uma plataforma onde fornece desafios de front-end que inclue
         </div>
     </td>
   </tr>
-
-     
 </table>
