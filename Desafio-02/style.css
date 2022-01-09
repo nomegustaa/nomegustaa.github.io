@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+}
+.corpo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 65% auto;
+    width: 20%;
+    border-top-left-radius: 5pt;
+    border-bottom-left-radius: 5pt;
+}
+
+.Sedans img{
+    margin: 25px 35px;
+}
+.Sedans h1{
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.Sedans p{
+    margin: 25px 35px;
+    line-height: 18pt;
+    width: 64%;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10pt;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.Sedans button{
+    margin: 45px 35px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: none;
+    padding: 10pt 20pt;
+    border-radius: 20pt;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.SUVs{
+    background-color: hsl(184, 100%, 22%);
+    height: 65% auto;
+    width: 20%;
+}
+.SUVs img{
+    margin: 25px 35px;
+}
+.SUVs h1{
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.SUVs p{
+    margin: 25px 35px;
+    width: 68%;
+    line-height: 18pt;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10pt;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.SUVs button{
+    margin: 45px 35px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: none;
+    padding: 10pt 20pt;
+    border-radius: 20pt;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+    height: 65% auto;
+    width: 20%;
+    border-top-right-radius: 5pt;
+    border-bottom-right-radius: 5pt;
+}
+.Luxury img{
+    margin: 25px 35px;
+}
+.Luxury h1{
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.Luxury p{
+    margin: 25px 35px;
+    width: 70%;
+    line-height: 18pt;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10pt;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.Luxury button{
+    margin: 45px 35px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: none;
+    padding: 10pt 20pt;
+    border-radius: 20pt;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+@media (max-width: 725px){
+    .corpo{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20pt 0;
+    }
+    .Sedans{
+        height: 65%;
+        width: 80%;
+        border-top-left-radius: 5pt;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5pt;
+    }
+    .Sedans img{
+        margin: 25px;
+    }
+    .Sedans h1{
+        margin: 0px 25px;
+    }
+    
+    .Sedans p{
+        margin: 20px 0 20px 25px;
+        line-height: 15pt;
+        width: 63%;
+        font-size: 10pt;
+    }
+    .Sedans button{
+        margin: 5px 25px 35px 25px;
+        padding: 10pt 20pt;
+        border-radius: 20pt;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .SUVs{
+        height: 65%;
+        width: 80%;
+    }
+    .SUVs img{
+        margin: 25px;
+    }
+    .SUVs h1{
+        margin: 0px 25px;
+    }
+    
+    .SUVs p{
+        margin: 20px 0 20px 25px;
+        line-height: 15pt;
+        width: 78%;
+        font-size: 10pt;
+    }
+    .SUVs button{
+        margin: 5px 25px 35px 25px;
+        padding: 10pt 20pt;
+        border-radius: 20pt;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .Luxury{
+        height: 65%;
+        width: 80%;
+        border-bottom-left-radius: 5pt;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 5pt;
+    }
+    .Luxury img{
+        margin: 25px;
+    }
+    .Luxury h1{
+        margin: 0px 25px;
+    }
+    
+    .Luxury p{
+        margin: 20px 0 20px 25px;
+        line-height: 15pt;
+        width: 79%;
+        font-size: 10pt;
+    }
+    .Luxury button{
+        margin: 5px 25px 35px 25px;
+        padding: 10pt 20pt;
+        border-radius: 20pt;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .footer p{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 20pt;
+}
+
+.footer img{
+    padding: 5pt;
+}
