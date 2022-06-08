@@ -254,3 +254,78 @@
     position: absolute;
     padding: 0px 0px 135px 10px;
 } */
+
+
+
+@media screen and (max-width:1080px){
+    .tela-inteira{
+        display: flex;
+        flex-direction: column;
+    }
+    .tela-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .tela-formulario{
+        width: 100%;
+    }
+    .formulario {
+        margin: 50px;
+    }
+    .titulo {
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .icones {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .tela-texto {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .container-texto {
+        /* margin-right: 100px; */
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .formulario-cadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+        display: none;
+        width: 100%;
+    }
+
+    @keyframes animar_fundo{
+
+        from{
+            transform: translateY(30%);
+        }
+        to{
+            transform: translateY(-0%);
+            
+        }
+    }
+    
+    @keyframes animar_fundo_voltando{
+    
+        from{
+            transform: translateY(-30%);
+        }
+        to{
+            transform: translateY(0%);
+    
+            
+        }
+    }
+
+}
