@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.search{
+    margin: 110px 0 110px;
+    width: 40%;
+    border: none;
+    background-color: #ECEFF5;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.entrar-cadastrar{
+    margin: 110px 0 110px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #FF1616;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolsa-compras{
+    width: 50px;
+    cursor: pointer;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF5;
+    padding: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.categoria .masculino{
+    color: #FF1616;
+    border-bottom: 1px solid #FF1616;
+    cursor: pointer;
+}
+
+.categoria .feminino{
+    color: #FF1616;
+    cursor: pointer;
+}
+
+
+
+
+.animacao-masculino{
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.painel-masculino{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+
+
+.animacao-feminino{
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.painel-feminino{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+.rp{
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.modelo1, .modelo2, .modelo3{
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+
+
+
+.titulo-p{
+    text-align: center;
+    margin: 10px 0 25px 0;
+}
+
+
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.objetivo,
+.visao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 200px 50px 0;
+}
+
+.missao, 
+.valores{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 200px;
+}
+
+.objetivo-texto,
+.missao-texto,
+.visao-texto{
+    width: 25%;
+    text-align: justify;
+    margin: 0 0 0 20px;
+}
+
+
+.objetivo-texto,
+.visao-texto{
+    background-color: #FF1616;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.valores-l{
+    margin: 0 0 0 50px;
+}
+.valores-l span{
+    color: #FF1616;
+}
+.li7{
+    width: 36%;
+}
+
+@media screen and (max-width: 1000px){
+    .objetivo-texto, .missao-texto, .visao-texto{
+        width: 50%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .objetivo-texto, .missao-texto, .visao-texto{
+        width: 100%;
+        text-align: justify;
+        margin: 0 0 0 0px;
+    }
+    .objetivo, .missao, .visao, .valores{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 25px 20px;
+    }
+    .objetivo-titulo, .missao-titulo, .visao-titulo, .valores-titulo{
+        text-align: center;
+    }
+    .li7{
+        width: 100%;
+    }
+}
+
+
+
+.big-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comprometimento h1,
+.confianca h1,
+.progresso h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+.span-p,
+.span-o,
+.span-p-2{
+    color: #FF1616;
+    font-size: 50px;
+    margin: 0 10px 0 10px;
+    font-weight: 700;
+}
+
+
+
+footer{
+    background-color: #c4c4c4;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+
+}
+
+.titulo{
+    margin: 50px 0 50px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rede{
+    font-size: 25px;
+    margin: 50px 0 0 0 ;
+}
+
+.icones-rede{
+    margin: 25px 0 50px 0 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 15%;
+}
+
+.instagram,
+.facebook,
+.twitter{
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .logo-footer{
+        width: 150px;
+    }
+}

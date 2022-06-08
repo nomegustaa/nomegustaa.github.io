@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+/* Tela do formulário login */
+
+.tela-inteira{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffafa;
+}
+
+.tela-formulario{
+    width: 40%;
+    display: inline;
+}
+.titulo{
+    font-family: 'Poppins';
+    color: #FF1616;
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    /* height: 100%; */
+}
+
+.email, .senha{
+    /* position: relative; */
+    padding: 15px;
+    padding-left: 55px;
+    border-radius: 17px;
+    margin-top: 25px;
+    border: 1px solid #FF1616;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* icone dentro do formlario */
+.formulario .icone-email{
+    position: absolute;
+    padding: 33px 0 0 10px ;
+}
+
+.formulario .icone-senha{
+    position: absolute;
+    padding: 109px 0 0 10px ;
+}
+
+
+.email::placeholder, .senha::placeholder{
+    color: #FF1616;
+    font-family: 'Poppins', sans-serif;
+}
+
+.esqueceu-senha{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FF1616;
+}
+
+
+.div-botao{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn-entrar{
+    padding: 20px 80px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF1616;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formulario p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.icones a{
+    padding: 20px 20px 0 20px;
+}
+
+
+
+/* Tela de texto */
+.tela-texto{
+    background-color: #FF1616;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /* animation: ; */
+}
+
+.container-texto{
+    /* margin-right: 100px; */
+    color: #fff;
+    text-align: center;
+}
+
+.container-texto h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container-texto p{
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: normal;
+    width: 45%;
+    padding-left: 30%;
+}
+
+.container-texto .btn-criar-conta, .btn-entrar-conta{
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+
+    /* hover */
+    background-image: linear-gradient(#fff, #fffafa);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition:background-size 500ms;
+}
+
+
+.btn-criar-conta:hover,
+.btn-entrar-conta:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+    color: #FF1616;
+}
+
+.btn-entrar-conta{
+    display: none;
+}
+
+/* animação fundo */
+
+@keyframes animar_fundo{
+
+    from{
+        transform: translateX(101%);
+    }
+    to{
+        transform: translateX(-134%);
+        
+    }
+}
+
+@keyframes animar_fundo_voltando{
+
+    from{
+        transform: translateX(-234%);
+    }
+    to{
+        transform: translateX(0%);
+
+        
+    }
+}
+
+.formulario-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+    display: none;
+    width: 20%;
+}
+.titulo-cadastro{
+    font-family: 'Poppins';
+    color: #FF1616;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.criar-nome,
+.cpf,
+.criar-sobrenome,
+.criar-email,
+.criar-senha{
+    padding: 15px;
+    /* padding-left: 50px; */
+    border-radius: 17px;
+    margin-top: 15px;
+    border: 1px solid #FF1616;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-cadastrar{
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF1616;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.criar-nome::placeholder,
+.cpf::placeholder,
+.criar-sobrenome::placeholder,
+.criar-email::placeholder,
+.criar-senha::placeholder{
+    color: #FF1616;
+}
+
+
+/* .icone-nome{
+    position: absolute;
+    padding: 0px 0px 270px 10px;
+}
+
+.icone-sobrenome{
+    position: absolute;
+    padding: 0px 0px 135px 10px;
+} */

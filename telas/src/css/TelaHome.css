@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.search{
+    margin: 110px 0 110px;
+    width: 40%;
+    border: none;
+    background-color: #ECEFF5;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.entrar-cadastrar{
+    margin: 110px 0 110px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #FF1616;
+    outline: none;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolsa-compras{
+    width: 50px;
+    cursor: pointer;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF5;
+    padding: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.categoria .masculino{
+    color: #FF1616;
+    border-bottom: 1px solid #FF1616;
+    cursor: pointer;
+}
+
+.categoria .feminino{
+    color: #FF1616;
+    cursor: pointer;
+}
+
+
+
+
+.animacao-masculino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-masculino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+.rp{
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.modelo1, .modelo2, .modelo3{
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+
+.animacao-feminino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-feminino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+.a-link{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/* SLIDE CARROUSEL */
+
+.slide{
+    margin: 25px;
+    z-index: -1;
+}
+
+
+
+
+
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icone1, .icone2, .icone3, .icone4{
+    display: flex;
+    align-items: center;
+}
+.icone-txt1{
+    margin: 0 0 0 10px;
+}
+
+
+
+.texto-principal h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 0 50px;
+}
+
+.texto-principal .painel-categoria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 25px 0 50px 0;
+}
+
+.texto-principal .calcados,
+.calcados-masculinos,
+.camisetas,
+.acessorios{
+    background-color: #EAEAEA;
+    border: 1px solid #FF1616;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.calcados:hover,
+.calcados-masculinos:hover,
+.camisetas:hover,
+.acessorios:hover{
+    background-color: #acacac;
+}
+
+
+.feminino1{
+    width: 150px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 25px 20px 25px 20px;
+}
+
+.masculino1{
+    width: 150px;
+    border-radius: 100%;
+    margin: 25px 20px 25px 20px;
+}
+
+
+.camiseta{
+    width: 150px;
+    border-radius: 100%;
+    margin: 25px 20px 25px 20px;
+}
+
+.acessorios-feminino{
+    width: 150px;
+    border-radius: 100%;
+    margin: 25px 20px 25px 20px;
+}
+
+
+
+.texto-camisetas,
+.texto-acessorios{
+    margin: 0 0 25px 0;
+}
+
+
+
+
+.painel-promocao h2{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.imagem-principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagem-dividida{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+
+.modelo8, .modelo9,
+.modelo10, .modelo11{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin:  0 0 50px 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.modelo8:hover,
+.modelo9:hover{
+    box-shadow: 0px 15px 25px #9C8EBD, 0px 12px 12px #9c8ebd;
+    padding: 10px;
+}
+
+.modelo10:hover{
+    box-shadow: 0px 15px 25px #613B2E, 0px 12px 12px #613B2E;
+    padding: 10px;
+}
+
+.modelo11:hover{
+    box-shadow: 0px 15px 25px #BC0410, 0px 12px 12px #BC0410;
+    padding: 10px;
+}
+
+
+
+
+.painel-principal{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(50deg, #C1292E, #000);
+    flex-wrap: wrap;
+}
+
+.painel-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-principal{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.p-segundario{
+    margin: 0 0px 0 50px ;
+    color: #fff;
+}
+
+.p-animado1{
+    animation: digitando 2s steps(50) normal 1; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.p-animado2{
+    animation: digitando 2s 1s steps(50) normal 1; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.p-animado3{
+    animation: digitando 2s 2.7s steps(50) normal 1; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+@keyframes digitando {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 18em;
+    }
+}
+
+
+
+
+.painel-principal2{
+    margin: 80px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(-50deg, #C1292E, #000);
+}
+
+.painel-texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-principal2{
+    width: 450px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.p-segundario2{
+    margin: 30px 0 0 0;
+    color: #fff;
+    width: 350px;
+    text-align: justify;
+}
+
+.btn-cartao{
+    margin: 30px 0 0 0;
+    border: none;
+    background-color: #FF1616;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.div-botao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-cadastrar{
+    margin: 25px 0 0 0;
+    border: none;
+    padding: 15px 15px;
+    font-size: 25px;
+    background-color: #FF1616;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.contato{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.p-contato{
+    /* width: 450px; */
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nome, .email-cliente{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 10%;
+}
+.nome::placeholder,
+.email-cliente::placeholder{
+    color: #FF1616;
+}
+
+
+
+
+
+
+footer{
+    background-color: #c4c4c4;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+
+}
+
+.titulo{
+    margin: 50px 0 50px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rede{
+    font-size: 25px;
+    margin: 50px 0 0 0 ;
+}
+
+.icones-rede{
+    margin: 25px 0 50px 0 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 15%;
+}
+
+.instagram,
+.facebook,
+.twitter{
+    cursor: pointer;
+}

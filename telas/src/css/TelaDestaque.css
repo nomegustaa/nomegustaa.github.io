@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.search{
+    margin: 110px 0 110px;
+    width: 40%;
+    border: none;
+    background-color: #ECEFF5;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.entrar-cadastrar{
+    margin: 110px 0 110px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #FF1616;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolsa-compras{
+    width: 50px;
+    cursor: pointer;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF5;
+    padding: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.categoria .masculino{
+    color: #FF1616;
+    border-bottom: 1px solid #FF1616;
+    cursor: pointer;
+}
+
+.categoria .feminino{
+    color: #FF1616;
+    cursor: pointer;
+}
+
+
+
+
+.animacao-masculino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-masculino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+
+
+
+.animacao-feminino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-feminino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+.rp{
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.modelo1, .modelo2, .modelo3{
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+.a-link{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.div-titulo h1{
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.section-principal{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px 0 100px;
+}
+
+.ordenar-2-titulo, .categoria-2-titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.categoria-texto, .texto-p{
+    margin: 10px 0 0 25px;
+}
+
+#texto-p1{
+    background-color: #C4C4C4;
+    padding: 2px 15px;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.t2,
+.t3,
+.texto1,
+.texto2,
+.texto3{
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+
+.imagens{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foto-modelo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.imagem-roupa{
+    width: 350px;
+    padding: 15px;
+}
+
+
+
+.foto1{
+    cursor: pointer;
+}
+
+.texto-modelo2{
+    width: 50%;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.ou{
+    text-align: center;
+}
+
+.preco{
+    font-size: 25px;
+}
+.preco span{
+    font-size: 15px;
+}
+
+.preco-parcelado{
+    font-size: 20px;
+    text-align: center;
+}
+.preco2{
+    font-weight: bold;
+}
+
+.cartao-pop span{
+    font-weight: bold;
+}
+
+.btn-comprar{
+    margin: 10px 0 10px 0;
+    /* width: 50%; */
+    border: none;
+    padding: 10px;
+    background-color: #00AE7C;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #c4c4c4;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+
+}
+
+.titulo{
+    margin: 50px 0 50px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rede{
+    font-size: 25px;
+    margin: 50px 0 0 0 ;
+}
+
+.icones-rede{
+    margin: 25px 0 50px 0 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 15%;
+}
+
+.instagram,
+.facebook,
+.twitter{
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .logo-footer{
+        width: 150px;
+    }
+}

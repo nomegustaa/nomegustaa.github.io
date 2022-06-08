@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP | Tela Login</title>
+
+    <link rel="stylesheet" href="src/css/Tela-Login.css">
+
+    <script src="src/javascript/Tela-Login.js" defer></script>
+
+    <link rel="shortcut icon" href="src/imagens/icones/logo-icone2-removebg-preview.png" type="image/x-icon">
+
+</head>
+<body>
+
+
+    <main class="tela-inteira">
+
+        <section class="tela-formulario" id="tela-formulario">
+
+            <h1 class="titulo" id="h1">Entre com sua conta</h1>
+            
+            <form action="" class="formulario" id="formulario">
+
+                
+
+                <!-- <label for="#">E-mail </label> -->
+                <input type="email" name="e-mail" id="email" class="email" placeholder="E-mail">
+                <img src="src/imagens/icones/o-email.png" alt="icone-email" width="35px" class="icone-email">
+
+                <!-- <label for="#">Senha</label> -->
+                <input type="password" name="senha" id="senha" class="senha" placeholder="Senha">
+                <img src="src/imagens/icones/padlock.png" alt="icone-senha" width="35px" class="icone-senha">
+
+                <a href="#" class="esqueceu-senha">Esqueceu a senha?</a>
+
+                <div class="div-botao">
+                    <!-- <button class="btn-entrar" id="btn-entrar">ENTRAR</button> -->
+                    <input type="button" value="ENTRAR" class="btn-entrar" id="btn-entrar">
+                </div>
+
+                <p>ou use sua conta de e-mail:</p>
+
+
+            </form>
+
+            <div class="icones" id="icones">
+
+                <a href="#">
+                    <img src="src/imagens/icones/facebook.png(conta).png" alt="icone-facebook" width="40px">
+                </a>
+
+                <a href="#">
+                    <img src="src/imagens/icones/google-plus.png" alt="icone-google" width="40px">
+                </a>
+
+                <a href="#">
+                    <img src="src/imagens/icones/linkedin.png" alt="icone-linkeidn" width="40px">
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="tela-texto" id="tela-texto">
+            <div class="container-texto">
+                <h2 class="h1-animado" id="h2-animado">Olá seja Bem-vindo</h2>
+
+
+                <p class="p-animado" id="p-animado">Não se cadastrou ainda ? Então Clique no botão abaixo e venha ser um POP.</p>
+    
+                <button class="btn-criar-conta" id="criar-conta">CRIAR CONTA</button>
+                <br>
+                <button class="btn-entrar-conta" id="btn-entrar-conta">ENTRAR</button>
+            </div>
+        </section>
+
+            
+        <form action="#" id="formulario-cadastro" class="formulario-cadastro">
+
+            <h1 class="titulo-cadastro">Criar Conta</h1>
+            <!-- <label for="#">Digite seu nome e sobrenome</label> -->
+            <input type="text" name="nome" id="nome" class="criar-nome" placeholder="Digite seu nome">
+            <!-- <img src="src/imagens/icones/sombra-de-usuario-masculino.png" alt="icone-nome" width="30px" class="icone-nome"> -->
+
+            <input type="text" name="sobrenome" id="sobrenome" class="criar-sobrenome" placeholder="Digite seu sobrenome">
+            <!-- <img src="src/imagens/icones/sombra-de-usuario-masculino.png" alt="icone-sobrenome" width="30px" class="icone-sobrenome"> -->
+
+            <input type="number" name="cpf" id="cpf" class="cpf" placeholder="Digite seu CPF">
+
+            <input type="email" name="criar-email" id="criar-email" class="criar-email" placeholder="Digite um e-mail">
+
+            <input type="password" name="criar-senha" id="criar-senha" class="criar-senha" placeholder="Digite uma senha">
+
+            <button class="btn-cadastrar">CADASTRE-SE</button>
+
+        </form>
+
+    </main>
+
+
+</body>
+</html>

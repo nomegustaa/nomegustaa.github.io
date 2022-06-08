@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.search{
+    margin: 110px 0 110px;
+    width: 40%;
+    border: none;
+    background-color: #ECEFF5;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.entrar-cadastrar{
+    margin: 110px 0 110px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #FF1616;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolsa-compras{
+    width: 50px;
+    cursor: pointer;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF5;
+    padding: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.categoria .masculino{
+    color: #FF1616;
+    border-bottom: 1px solid #FF1616;
+    cursor: pointer;
+}
+
+.categoria .feminino{
+    color: #FF1616;
+    cursor: pointer;
+}
+
+
+
+
+.animacao-masculino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-masculino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+
+
+.animacao-feminino{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.painel-feminino{
+    display: none;
+    justify-content: space-around;
+    background-color: #ECEFF5;
+    width: 50%;
+}
+.rp{
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.modelo1, .modelo2, .modelo3{
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.a-link{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+main .tela-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+}
+
+.imagem{
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    margin: 0 50px;
+}
+
+
+
+
+#vestido-principal{
+    display: inline;
+}
+
+#vestido-principal1{
+    display: none;
+}
+
+
+
+.imagens-animacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.vestido{
+    width: 80px;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 20px 0;
+    cursor: pointer;
+}
+
+.vestido1{
+    width: 80px;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 20px 0;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px){
+    .imagem-foto{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .imagem-foto{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    main .tela-produto{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 50px 0 0 0;
+    }
+}
+
+.texto{
+    text-align: center;
+}
+
+.p-titulo{
+    font-size: 25px;
+}
+.preco{
+    font-size: 40px;
+    margin: 15px 0 15px 0;
+
+}
+
+
+.preco-parcela{
+    font-size: 25px;
+}
+
+.parcela{
+    margin: 15px 0 15px 0;
+
+}
+.cartao{
+    font-weight: bold;
+}
+
+.tamanhos{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+
+}
+
+.p,
+.m,
+.g,
+.gg{
+    border: 2px solid #00AE7C;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.p:hover,
+.m:hover,
+.g:hover,
+.gg:hover{
+    background-color: #00AE7C;
+    border: none;
+    color: #fff;
+}
+
+
+.div-botao{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.btn-comprar{
+    width: 50%;
+    padding: 10px 25px;
+    margin: 10px 0 10px 0;
+    border: none;
+    background-color: #00AE7C;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+
+
+.btn-comprar:hover{
+    background-color: #00ae7d07;
+    color: #00AE7C;
+    box-shadow: 0 0 1em #00AE7C;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #c4c4c4;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+
+}
+
+.titulo{
+    margin: 50px 0 50px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rede{
+    font-size: 25px;
+    margin: 50px 0 0 0 ;
+}
+
+.icones-rede{
+    margin: 25px 0 50px 0 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 15%;
+}
+
+.instagram,
+.facebook,
+.twitter{
+    cursor: pointer;
+}
